@@ -3,7 +3,7 @@ using CQRS.Core.Repositories.Command.Base;
 
 namespace CQRS.Core.Repositories.Command
 {
-    public interface ICommandCustomerRepository : ICommandRepository<Customer>
+    public interface ICustomerCommandRepository : ICommandRepository<Customer>
     {
     }
 }

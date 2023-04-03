@@ -9,7 +9,7 @@ namespace CQRS.Infrastructure.Repositories.Query
 {
     public class CustomerQueryRepository : QueryRepository<Customer>, ICustomerQueryRepository
     {
-        protected CustomerQueryRepository(IConfiguration configuration) : base(configuration)
+        public CustomerQueryRepository(IConfiguration configuration) : base(configuration)
         {
         }
 
